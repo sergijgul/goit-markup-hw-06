@@ -740,6 +740,67 @@ transition: opacity var(--main-animation), visibility var(--main-animation);
   .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.9);
   }
+  .sub-footer {
+    margin-left: auto;
+  }
+  .sub-footer-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--btn-text-color-active);
+    padding: 0px;
+    margin-bottom: 16px;
+  }
+  .sub-footer-form {
+    display: flex;
+  }
+  
+  .sub-btn-field {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+  }
+  
+  .sub-btn-icon {
+    display: flex;
+    margin-left: 16px;
+  }
+  
+  .sub-form-field-input {
+    display: flex;
+    width: 264px;
+    height: 40px;
+    align-items: center;
+    padding: 8px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    transition: drop-shadow var(--main-animation);
+  }
+  
+  .sub-btn {
+    display: flex;
+    color: var(--btn-text-color-active);
+    background-color: var(--btn-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.04em;
+    cursor: var(--cursor-pointer);
+    border-radius: 4px;
+    border: none;
+    padding: 8px 24px;
+    transition: background-color var(--main-animation);
+  }
+  
+  .sub-btn:hover,
+  .sub-btn:active {
+    background-color: var(--btn-bg-color-active);
+  }
+  
   .no-scroll {
       overflow: hidden;
   }
