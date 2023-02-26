@@ -882,7 +882,7 @@ transition: opacity var(--main-animation), visibility var(--main-animation);
   }
   
   .modal-form-policy-icon {
-    border: 1.25px solid var(--button-close);
+    border: 1.25px solid var(--btn-text-color);
     border-radius: 2px;
     margin-right: 8px;
     transition: border-color var(--main-animation);
