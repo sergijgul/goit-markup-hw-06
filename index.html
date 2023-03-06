@@ -375,13 +375,13 @@
     <div class="sub-footer">
       <p class="sub-footer-title">Subscribe</p>
       <form class="sub-footer-form">
-<div class="sub-form-field">
-  <input class="sub-form-field-input" type="email" name="email" placeholder="E-mail"></div>
-  <div class="sub-btn-field">
+
+  <input class="sub-form-field-input" type="email" name="email" placeholder="E-mail">
+  
     <button type="submit" class="sub-btn">Subscribe <svg width="24px" height="24px" class="sub-btn-icon">
       <use href="./images/icon.svg#icon-Frame-3"></use>
     </svg></button>
-  </div>
+
 </div>
       </form>
     </div>
@@ -394,32 +394,25 @@
         <form>
           <div class="modal-form-field">
               <label class="modal-form-label" for="user-name">Name</label>
-              <div class="modal-form-input">
-                  <input type="text" name="user-name" id="user-name">
+                  <input class="modal-form-input" type="text" name="user-name" id="user-name">
                   <svg class="modal-form-input-icon" width="18px" height="18px">
                       <use href="./images/icon.svg#icon-person-black-18dp-1"></use>
                   </svg>
-              </div>
           </div>
-
           <div class="modal-form-field">
               <label class="modal-form-label" for="phone">Phone</label>
-              <div class="modal-form-input">
-                  <input type="tel" name="phone" id="phone" autocomplete="on">
+                  <input class="modal-form-input" type="tel" name="phone" id="phone" autocomplete="on">
                   <svg class="modal-form-input-icon" width="18px" height="24px">
                       <use href="./images/icon.svg#icon-phone-black-18dp-1"></use>
                   </svg>
-              </div>
           </div>
 
           <div class="modal-form-field">
               <label class="modal-form-label" for="mail">Email</label>
-              <div class="modal-form-input">
-                  <input type="email" name="mail" id="mail" autocomplete="on" required="">
+                  <input class="modal-form-input" type="email" name="mail" id="mail" autocomplete="on" required="">
                   <svg class="modal-form-input-icon" width="18px" height="24px">
                       <use href="./images/icon.svg#icon-email-black-18dp-1"></use>
                   </svg>
-              </div>
           </div>
 
           <div class="modal-form-field textarea">
@@ -430,15 +423,12 @@
 
           <div class="modal-form-field-checkbox">
             <label class="checkbox-policity">
-              <input type="checkbox" name="Policy" value="Privacy Policy"/>
-              <p>I accept the terms and conditions of the</p>
+              <input class="checkbox" type="checkbox" name="Policy" value="Privacy Policy"/>
+              <p class="checkbox-text">I accept the terms and conditions of the</p>
               <a href="" class="modal-policy-text">Privacy Policy</a>             
             </label>
-          </div>
-
-          <div class="modal-btn-field">
               <button type="submit" class="modal-form-btn">Send</button>
-          </div>
+            </div>
       </form>
         <button data-modal-close class="close-button">
           <svg class="close" width="8" height="8">
