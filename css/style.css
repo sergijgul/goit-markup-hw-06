@@ -916,8 +916,6 @@ margin: 0;
   }
   .sub-footer-form {
     display: flex;
-    width: 264px;
-    height: 40px;
   }
   
   
@@ -928,6 +926,7 @@ margin: 0;
   
   .sub-form-field-input {
     display: flex;
+    width: 264px;
     align-items: center;
     padding: 8px 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
