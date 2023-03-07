@@ -796,6 +796,7 @@ transition: opacity var(--main-animation), visibility var(--main-animation);
     display: flex;
     position: relative;
     height: 40px;
+    padding-left: 38px;
   }
   
   .modal-form-input-icon {
@@ -868,12 +869,35 @@ transition: opacity var(--main-animation), visibility var(--main-animation);
     letter-spacing: 0.04em;
   }
   .checkbox{
-width: 16px;
-height: 16px;
-border: 1.25px solid var(--main-text-color);
-border-radius: 2px;
-margin: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+.checkbox-span{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1.25px solid var(--main-text-color);
+  border-radius: 2px;
+  transition: background-color var(--main-animation),
+}
+.checkbox-icon{
+fill: var(--btn-text-color-active);
+}
+
+.checkbox:checked + .checkbox-span{
+  background-color: var(--btn-bg-color-active);
+  border-color: transparent;
+
+}
+
 
 .checkbox-text{
   padding-left: 8px;
