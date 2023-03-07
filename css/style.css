@@ -799,7 +799,7 @@ transition: opacity var(--main-animation), visibility var(--main-animation);
     padding-left: 38px;
   }
   
-  .modal-form-input-icon {
+  .modal-form-input-icon{
     position: absolute;
     top: 65%;
     left: 16px;
